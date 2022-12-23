@@ -83,51 +83,5 @@ nav {
     transform: scaleX(1);   
     transform-origin: center;
 }
-.app {
-    display: flex;
-    justify-content: space-around;
-    padding: 70px 0;
-}
-.left img {
-    width: 500px;
-    display: flex;
-    margin: auto;
-    padding: auto;
-    align-items: center;
-}
-.right {
-    align-self: center;
-}
-.login a {
-    color: #EEEEEE;
-}
-.login a:hover { 
-    text-decoration: none;
-}
-.login {
-    font-size: 60px;
-    background-color: #0D7377;
-    
-    padding: 70px 200px;
-    border-radius: 40px;
-    box-shadow: 0 30px #0d7477ac;
-    border: none;
-    transform: translateY(-25px);
-    transition: all 1s;
-}
-.login:focus {
-    outline: none;
-}
-.login:hover {
-    cursor: pointer;
-    transform: translateY(25px);
-    transition: all 1s;
-    box-shadow: none;
-}
-.footer {
-    padding: 70px 10px;
-    background-color: #fff;
-    color: #212121;
-    text-align: center;
-}
+
 
