@@ -69,7 +69,7 @@ nav {
     transform: scaleX(0);
     top: 0;
     right: 0;
-    transform-origin: top right;
+    transform-origin: top left;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -81,7 +81,7 @@ nav {
 }
 .list-item:hover::before {
     transform: scaleX(1);   
-    transform-origin: center;
+    transform-origin: top left;
 }
 
 

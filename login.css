@@ -1,0 +1,28 @@
+.app {
+    padding: 70px 0;
+    text-align: center;
+}
+form {
+    display: grid;
+    padding: 10px 400px;
+}
+.form-gr {
+    display: grid;
+    margin: 20px 0;
+}
+.form-gr label {
+    font-size: 30px;
+    font-weight: 600;
+}
+.form-gr input{
+    height: 100px;
+    padding: 20px 40px;
+    font-size: 30px;
+    border-radius: 20px;
+    border: none;
+}
+.form-gr input:focus {
+    outline: none;
+    box-shadow: 3px 6px 0 rgb(45 180 158);
+}
+
