@@ -28,9 +28,11 @@ nav {
     height: 100%;
 }
 .nav-branch h1 {
-    font-size: 20px;
+    font-size: 18px;
     color: #212121;
     font-weight: 700;
+    max-width: 100px;
+    margin-left: 10px;
 }
 .nav-menu {
     margin-right: 60px;
@@ -57,5 +59,40 @@ nav {
 .list-item:hover a {
     color: #EEEEEE;
     text-decoration: none;
+}
+.app {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 0;
+}
+.left img {
+    width: 500px;
+    display: flex;
+    margin: auto;
+    padding: auto;
+    align-items: center;
+}
+.right {
+    align-self: center;
+}
+.login {
+    font-size: 60px;
+    background-color: #0D7377;
+    color: #EEEEEE;
+    padding: 70px 200px;
+    border-radius: 100px;
+    box-shadow: 0 30px #0d7477ac;
+    border: none;
+    transform: translateY(-25px);
+    transition: all 1s;
+}
+.login:focus {
+    outline: none;
+}
+.login:hover {
+    cursor: pointer;
+    transform: translateY(25px);
+    transition: all 1s;
+    box-shadow: none;
 }
 
