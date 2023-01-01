@@ -39,3 +39,11 @@
     transition: all 1s;
     box-shadow: none;
 }
+h2.name {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+h4.name {
+    text-align: center;
+}
